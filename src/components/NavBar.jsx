@@ -15,12 +15,12 @@ const NavBar = () => {
 
       
       <ul className="hidden md:flex items-center gap-12 text-md font-medium tracking-wide">
-        <li className="hover:text-yellow-400 cursor-pointer">Home</li>
-        <li className="hover:text-yellow-400 cursor-pointer">About</li>
-        <li className="hover:text-yellow-400 cursor-pointer">Skills</li>
-        <li className="hover:text-yellow-400 cursor-pointer">Projects</li>
-        <li className="hover:text-yellow-400 cursor-pointer">Blog</li>
-        <li className="hover:text-yellow-400 cursor-pointer">Contact me</li>
+        <li className="hover:text-yellow-700 cursor-pointer">Home</li>
+        <li className="hover:text-yellow-700 cursor-pointer">About</li>
+        <li className="hover:text-yellow-700 cursor-pointer">Skills</li>
+        <li className="hover:text-yellow-700 cursor-pointer">Projects</li>
+        <li className="hover:text-yellow-700 cursor-pointer">Blog</li>
+        <li className="hover:text-yellow-700 cursor-pointer">Contact me</li>
       </ul>
     </nav>
   );
