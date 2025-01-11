@@ -3,7 +3,7 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
-const AboutMe = () => {
+const About = () => {
   return (
     <div className="min-h-screen bg-[#201E15] text-white flex gap-10 items-center justify-center px-[8rem] py-20">
     
@@ -60,4 +60,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default About;

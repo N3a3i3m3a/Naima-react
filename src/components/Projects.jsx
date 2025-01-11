@@ -8,8 +8,9 @@ const Projects = () => {
   const projects = [
     { title: "Blood Link", image: "/bloodLink.JPG", link: "https://blood-link-fe.onrender.com" },
     { title: "Personal portifolio", image: "/portifolio.JPG", link: "https://naima-portifolio-coral.vercel.app/" },
+    { title: "Countries App", image: "/countries.JPG", link: "https://worldapi.netlify.app" },
     { title: "Contribution on Igire Rwanda Organization website", image: "/iro.JPG", link: "https://igirerwanda.vercel.app/" },
-    { title: "Project Four", image: "/path-to-image-4.jpg", link: "/project-four" },
+    
   ];
 
   const sliderSettings = {
@@ -55,7 +56,6 @@ const Projects = () => {
                 
               <div className="bg-black border border-orange-600 rounded-lg overflow-hidden shadow-md ">
               <h3 className="text-xl font-semibold h-16 flex items-center justify-center">{project.title}</h3>
-                {/* Image */}
                 <img
                   src={project.image}
                   alt={project.title}
@@ -81,7 +81,6 @@ const Projects = () => {
   );
 };
 
-// Custom Next Arrow
 const NextArrow = (props) => {
   const { onClick } = props;
   return (
@@ -94,7 +93,6 @@ const NextArrow = (props) => {
   );
 };
 
-// Custom Prev Arrow
 const PrevArrow = (props) => {
   const { onClick } = props;
   return (

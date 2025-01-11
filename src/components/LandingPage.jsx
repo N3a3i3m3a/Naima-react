@@ -1,20 +1,23 @@
-import React from "react";
-import NavBar from "./NavBar";
-import Home from "./Home";
-import About from "./About"
-import Skills from "./Skills"
-import Projects from "./Projects";
+import React from 'react'
+import Home from './Home'
+import Skills from './Skills'
+import About from './About';
+import Blog from "./Blog";
+import Contact from './Contact';
+import Projects from './Projects';
 
-function App() {
+
+const LandingPage = () => {
   return (
     <div>
-      <NavBar />
-      <Home />
-      <About/>
-      <Skills/>
-      <Projects/>
+        <Home/>
+        <About/>
+        <Skills/>
+        <Projects/>
+        <Blog/>
+        <Contact/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default LandingPage
