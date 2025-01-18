@@ -37,7 +37,7 @@ const Contact = () => {
           <hr className="border-gray-700 mt-14 mb-6" />
           <div className="flex items-center gap-6">
             <span className="text-lg font-semibold">Follow Me:</span>
-            <a href="https://github.com/N3a3i3m3a"><FaGithub className="text-yellow-700-2xl cursor-pointer hover:text-orange-400" /></a>
+            <a href="https://github.com/N3a3i3m3a"><FaGithub className="text-yellow-700 text-2xl cursor-pointer hover:text-orange-400" /></a>
            <a href=""> <FaXTwitter className="text-yellow-700 text-2xl cursor-pointer hover:text-orange-400" /></a>
            <a href="https://www.linkedin.com/in/naima-nishimwe-581b77263/"> <FaLinkedin className="text-yellow-700 text-2xl cursor-pointer hover:text-orange-400" /></a>
            <a href="https://www.instagram.com/naimanishimwe/"><FaInstagram className="text-yellow-700 text-2xl cursor-pointer hover:text-orange-400" /></a>

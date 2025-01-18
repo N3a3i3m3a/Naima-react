@@ -19,8 +19,8 @@ const Footer = () => {
             />
           </div>
           <p className="text-gray-300 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-            ullamcorper mattis, pulvinar dapibus leo.
+            Naima Nishimwe, A creative Front-end developer and UI/UX designer, who solves
+            real-world problems through codes and designs.
           </p>
         </div>
 
@@ -53,7 +53,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="/contact" className="flex items-center text-gray-300 hover:text-yellow-700">
+              <a href="/contactme" className="flex items-center text-gray-300 hover:text-yellow-700">
                 <HiArrowRight className="text-yellow-700 mr-2" /> Contact
               </a>
             </li>
@@ -89,7 +89,7 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold mb-4">Get latest information</h3>
           <p className="text-gray-300 mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Enter and send your Email, to get latest information.
           </p>
           <div className="relative">
             <input
