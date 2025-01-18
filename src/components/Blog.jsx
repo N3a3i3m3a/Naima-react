@@ -20,15 +20,15 @@ const BlogSection = () => {
       image: "/GBV.jpg",
       
     },
-    {
-      id: 3,
-      title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      description:
-        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-      date: "February 10, 2024",
-      image: "/path-to-image.jpg",
+    // {
+    //   id: 3,
+    //   title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //   description:
+    //     "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+    //   date: "February 10, 2024",
+    //   image: "/path-to-image.jpg",
       
-    },
+    // },
   ];
 
   return (
