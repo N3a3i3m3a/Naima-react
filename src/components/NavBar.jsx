@@ -20,7 +20,7 @@ const NavBar = () => {
         <img src="/logo.png" alt="Logo" className="w-16 h-16 sm:w-20 sm:h-20" />
       </div>
 
-      <ul className="hidden md:flex text-[1rem] items-center gap-4 sm:gap-8 lg:gap-12 text-sm md:text-md font-medium tracking-wide">
+      <ul className="hidden md:flex text-[16px] items-center gap-4 sm:gap-8 lg:gap-12 text-sm md:text-md font-medium tracking-wide">
         {links.map((item, index) => {
           const linkPath =
             item === "Home" ? "/" : `/${item.toLowerCase().replace(" ", "")}`;
@@ -38,7 +38,7 @@ const NavBar = () => {
         })}
       </ul>
 
-      {/* Hamburger Menu */}
+      
       <div className="md:hidden">
         <button
           onClick={toggleMenu}
