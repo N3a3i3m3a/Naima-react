@@ -32,7 +32,7 @@ const BlogSection = () => {
   ];
 
   return (
-    <div className="bg-black text-white py-20 px-[8rem]">
+    <div className="bg-black text-white py-20 px-[5%] md:px-[10%]">
       <h2 className="text-center text-3xl font-bold mb-8">Latest News</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {blogs.map((blog) => {
@@ -58,7 +58,7 @@ const BlogSection = () => {
             
               <div className="border-t border-gray-700 mx-4"></div>
 
-              <div className="absolute top-[7rem] left-10 bg-orange-500 text-white rounded-full px-3 py-1 text-sm font-bold flex flex-col items-center">
+              <div className="absolute top-[7rem] left-10 bg-yellow-700 text-white rounded-full px-3 py-1 text-sm font-bold flex flex-col items-center">
                 <span className="text-xl">{day}</span>
                 <span className="text-xs uppercase">{month}</span>
               </div>
@@ -74,7 +74,7 @@ const BlogSection = () => {
                 <p className="text-gray-300 text-sm mb-4">
                   {blog.description}
                 </p>
-                <button className="bg-orange-500 text-white px-4 py-2 rounded-lg flex items-center gap-2 hover:bg-orange-600 transition duration-300">
+                <button className="bg-yellow-700 text-white px-4 py-2 rounded-lg flex items-center gap-2 hover:bg-yellow-700 transition duration-300">
                   Learn more <span className="text-lg">&#8594;</span>
                 </button>
               </div>

@@ -38,7 +38,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="bg-[#201E15] text-white py-20 px-[8rem] ">
+    <div className="bg-[#201E15] text-white py-20 px-[5%] md:px-[10%]">
     
       <div className="text-center mb-10">
         <h2 className="text-3xl font-bold mb-4">Projects I worked on</h2>
@@ -54,19 +54,19 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div key={index} className="px-4">
                 
-              <div className="bg-black border border-orange-600 rounded-lg overflow-hidden shadow-md ">
+              <div className="bg-black border border-yellow-700 rounded-lg overflow-hidden shadow-md ">
               <h3 className="text-xl font-semibold h-16 flex items-center justify-center">{project.title}</h3>
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-56 object-cover border border-orange-600"
+                  className="w-full h-56 object-cover border border-yellow-700"
                 />
             
                 <div className="p-4 flex absolute bottom-0 ">
                   
                   <a
                     href={project.link}
-                    className=" text-white rounded-full p-3 bg-orange-700 "
+                    className=" text-white rounded-full p-3 bg-yellow-700 "
                     aria-label={`View details of ${project.title}`}
                   >
                     <FaArrowRight />
@@ -85,7 +85,7 @@ const NextArrow = (props) => {
   const { onClick } = props;
   return (
     <div
-      className="absolute top-1/2 right-4 transform -translate-y-1/2 z-10 cursor-pointer text-orange-700 text-3xl"
+      className="absolute top-1/2 right-4 transform -translate-y-1/2 z-10 cursor-pointer text-yellow-700 text-3xl"
       onClick={onClick}
     >
       <FaArrowRight />
@@ -97,7 +97,7 @@ const PrevArrow = (props) => {
   const { onClick } = props;
   return (
     <div
-      className="absolute top-1/2 left-4 transform -translate-y-1/2 z-10 cursor-pointer text-orange-700 text-3xl"
+      className="absolute top-1/2 left-4 transform -translate-y-1/2 z-10 cursor-pointer text-yellow-700 text-3xl"
       onClick={onClick}
     >
       <FaArrowLeft />
