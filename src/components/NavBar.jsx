@@ -23,7 +23,7 @@ const NavBar = () => {
       <ul className="hidden md:flex text-[16px] items-center gap-4 sm:gap-8 lg:gap-12 text-sm md:text-md font-medium tracking-wide">
         {links.map((item, index) => {
           const linkPath =
-            item === "Home" ? "/" : `/${item.toLowerCase().replace(" ", "")}`;
+            item === "Home" ? "/" : `/${item.replace(" ", "")}`;
           return (
             <a href={linkPath} key={index}>
               <li
@@ -69,7 +69,7 @@ const NavBar = () => {
         <ul className="absolute top-16 left-0 w-full bg-black text-white flex flex-col items-center gap-2 text-sm sm:text-md font-medium tracking-wide p-4 md:hidden">
           {links.map((item, index) => {
             const linkPath =
-              item === "Home" ? "/" : `/${item.toLowerCase().replace(" ", "")}`;
+              item === "Home" ? "/" : `/${item.replace(" ", "")}`;
             return (
               <a href={linkPath} key={index}>
                 <li
